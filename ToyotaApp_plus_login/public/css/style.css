@@ -1,0 +1,402 @@
+body{
+    margin: 0px;
+    padding-top: 0;
+}
+
+.container{
+    height: 590px;
+    width: 1295px;
+    background-color: #ffff;
+    padding-top: 60px;
+}
+
+.container .center{
+    height: 470px;
+    width: 950px;
+    background-color: #DDDDDD;
+    margin-left: 180px;
+    padding-top: 10px;
+    display: flex;
+}
+
+.container .center .left{
+    height: 450px;
+    width: 580px;
+    background-color: #DDDDDD;
+    margin-left: 10px;
+}
+
+.container .center .right{
+    height: 450px;
+    width: 390px;
+    background-color: #DDDDDD;
+}
+
+.container .center .left .customer_info{
+    height: 190px;
+    width: 525px;
+    background-color: #525B63;
+    color: white;
+}
+
+.container .center .left .customer_info .customer_id{
+    width: 89px;
+}
+
+.container .center .left .customer_info .one{
+    display: flex;
+    margin-top: 10px
+}
+
+.container .center .left .part_order .one{
+    display: flex;
+    margin-top: 10px
+}
+
+.container .center .left .customer_info .one input{
+    height: 25px;
+    margin-left: 15px;
+}
+
+.container .center .left .customer_info .two input{
+    height: 25px;
+    margin-left: 65px;
+    width: 180px;
+}
+
+
+.container .center .left .customer_info .three .label input{
+    height: 25px;
+    margin-left: 71px;
+    width: 100px;
+}
+
+.container .center .left .customer_info .three .retail_customer input{
+    height: 15px;
+    margin-left: 50px;
+}
+
+.container .center .left .customer_info .two{
+    margin-top: 10px;
+    display: flex;
+}
+
+.container .center .left .customer_info .three{
+    margin-top: 10px;
+    display: flex;
+}
+
+
+.container .center .left .part_order .two{
+    margin-top: 10px;
+    display: flex;
+}
+
+.container .center .left .part_order .three{
+    margin-top: 10px;
+    display: flex;
+}
+
+.container .center .left .customer_info fieldset{
+    height: 170px;
+}
+
+.container .center .right .shipping fieldset{
+    height: 170px;
+}
+
+.container .center .right .output fieldset{
+    height: 190px;
+}
+
+.container .center .left .part_order{
+    margin-top: 10px;
+    height: 210px;
+    width: 524px;
+    color: white;
+    background-color: #525B63;
+}
+
+.container .center .right .shipping{
+    height: 190px;
+    width: 380px;
+    background-color: #525B63;;
+    margin-right: 10px;
+    color: white;
+}
+
+.container .center .right .output{
+    margin-top: 10px;
+    height: 210px;
+    width: 380px;
+    margin-right: 10px;
+    background-color: #525B63;
+    color: white;
+}
+
+
+.container .center .left .part_order .one input{
+    height: 25px;
+    width: 180px;
+    margin-left: 15px;
+}
+
+.container .center .left .part_order .two input{
+    height: 25px;
+    margin-left: 25px;
+    width: 180px;
+}
+
+
+.container .center .left .part_order .three .price_part{
+    height: 25px;
+    width: 100px;
+}
+
+.container .center .left .part_order .three .label input{
+    height: 25px;
+    width: 180px;
+}
+
+.container .center .left .part_order .three .quantity{
+    margin-left: 83px;
+    margin-right: -80px;
+}
+
+.container .center .left .part_order .three .quantity input{
+    height: 25px;
+    width: 40px;
+}
+
+.oversie_container {
+    margin-left: 96px;
+    margin-top: 10px;
+}
+
+.lower{
+    display: flex;
+    margin-top: 10px;
+}
+
+.lower .computer input{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #525B63;
+    border: none;
+    border: 1px solid white;
+    
+
+}
+
+.lower .computer input:hover{
+    color: white
+}
+
+.lower .new_order input{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #525B63;
+    margin-left: 10px;
+    border: 1px solid white;
+}
+
+.lower .new_order input:hover{
+    color: white;
+}
+
+
+.right .exit input{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 230px;
+    background-color: #525B63;
+    border: 1px solid white;
+
+}
+
+
+.right .exit input:hover{
+    color: white;
+}
+
+
+.container .center .right .shipping .fedExGround{
+    margin-left: 110px;
+}
+
+.container .center .right .shipping .fedExAir{
+    margin-left: 49.5px;
+}
+
+.container .center .right .shipping .one{
+    margin-top: 10px;
+}
+
+.container .center .right .shipping .two{
+    margin-top: 40px;
+}
+
+.output .cost{
+    margin-top: 10px;
+    display: flex;
+}
+
+.output .cost .label{
+    width: 80px;
+    height: 25px;
+}
+
+.output .cost .input_field{
+    width: 100px;
+    margin-left: 150px;
+}
+
+.output .sales{
+    margin-top: 10px;
+    display: flex;
+}
+
+.output .sales .label{
+    width: 80px;
+    height: 25px;
+}
+
+.output .sales .sales_field{
+    width: 100px;
+    margin-left: 150px;
+}
+
+.output .Shipping{
+    display: flex;
+    margin-top: 10px;
+}
+
+.output .Shipping .label{
+    width: 150px;
+    height: 25px;
+}
+
+.output .Shipping .shipping_field{
+    width: 100px;
+    margin-left: 80px;
+}
+
+.output .total{
+    margin-top: 10px;
+    display: flex;
+}
+
+.output .total .label{
+    width: 80px;
+    height: 25px;
+}
+
+.output .total .total_field{
+    width: 100px;
+    margin-left: 150px;
+}
+
+fieldset {
+    border: 1px solid white;
+}
+
+.customerSpan{
+    height: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    width: 180px;
+}
+
+.nameSpan{
+    height: 5px;
+    margin-bottom: 5px;
+    margin-left: 65px;
+    width: 180px;
+}
+
+.stateSpan{
+    height: 5px;
+    margin-bottom: 5px;
+    margin-left: 103px;
+    width: 180px;
+}
+
+.numberSpan{
+    height: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    width: 280px;
+}
+
+.descriptionSpan{
+    height: 5px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    width: 280px;
+}
+
+.generalSpan{
+    display: flex;
+    height: 5px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    width: 385px;
+}
+
+.generalSpan .priceSpan{
+    width: 280px;
+    height: 5px;
+}
+
+.generalSpan .quantitySpan{
+    width: 110px;
+    height: 5px;
+}
+
+span{
+    color: red;
+    font-size: medium;
+}
+
+nav{
+    display: flex;
+    background-color: #515B63;
+    height: 50px;
+    width: 100%;
+    margin-top: -60px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+nav .welcome{
+    width: 300px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+nav .register{
+    width: 80px;
+    margin-left: 600px;
+}
+
+nav img {
+    width: 50px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: -10px;
+}
+
+nav input{
+
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
